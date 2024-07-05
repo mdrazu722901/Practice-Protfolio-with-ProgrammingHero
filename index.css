@@ -4,8 +4,18 @@ body{
     font-weight: <weight>;
     font-style: normal;
 }
+body{
+    margin: 0px;
+}
 span{
     color: orange;
+}
+section{
+    height: 600px;
+}
+.top-section{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
 }
 .width-half{
     width: 34%;
@@ -15,4 +25,41 @@ span{
 }
 .width-half img{
     width: 80%;
+}
+.Button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,orange, rgb(68, 4, 15));
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px yellowgreen;
+    color: white;
+}
+.mid-section{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiance-section{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#speciall{
+    border-left: 10px solid;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 10px 10px 40px green;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
+#speciall2{
+    border-left: 10px solid;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 10px 10px 40px green;
+    border-image: linear-gradient(black, yellowgreen);
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
 }
