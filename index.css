@@ -1,0 +1,18 @@
+body{
+    font-family: "Gelasio", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+span{
+    color: orange;
+}
+.width-half{
+    width: 34%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 5px;
+}
+.width-half img{
+    width: 80%;
+}
